@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Roboto+Mono:wght@100&family=Rock+Salt&display=swap');
 
 * {
-    margin: 10;
+    margin: 20px;
     padding: 0;
 }
 
@@ -64,12 +64,13 @@ h2{
     background-color: rgba(0, 0, 30, 0.50) ;}
 
 li{
-    list-style-type: space-counter;
+    list-style-type: disc;
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 25px;
-}
+    padding: 10px 5px;
 
+}
 .mediasocial{
         font-size: 2rem;
         border-radius: 10px;
