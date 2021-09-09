@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Roboto+Mono:wght@100&family=Rock+Salt&display=swap');
+
+* {
+    margin: 10;
+    padding: 0;
+}
+
+header{
+    padding: 10px 0; 
+    background-color: rgba(0, 0, 30, 0.50) ;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Allison', cursive;
+    font-size: 100px;
+    display: block;
+    margin: 0;
+    color: yellow;
+}
+
+body{
+    background-image:url(https://api.metro1.com.br/noticias/46978,20-praias-de-salvador-estao-improprias-para-banho-farol-da-barra-esta-na-lista-3.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    color: white;
+}
+
+section {
+    display: block;
+}
+
+iframe{
+    width: 1280px;
+    height: 720px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 0 auto; 
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    size: 20px;
+    text-align: center;
+    position: relative;
+}
+.curiosidades{
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 30, 0.50) ;}
+
+li{
+    list-style-type: space-counter;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+}
+
+.mediasocial{
+        font-size: 2rem;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 30, 0.50) ;
+        text-align: center;
+}
