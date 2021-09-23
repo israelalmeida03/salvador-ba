@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+    fieldset {
+        margin: 5%;
+        border: 2px violet solid;
+        border-radius: 20px;
+        padding: 30px;
+        position: relative;
+    }
+
+    legend {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        color: blueviolet;
+        font-size: 30px;
+        padding: 10px;
+        position: absolute; /* reposiciona a tag em relação ao body OU ao ancestral posicionado mais próximo */
+        top: -30px;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+
+    h1::first-letter{
+        color: red;
+
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    input:invalid{
+        background-color: red;
+    }
+
+    input:valid{
+        background-color: greenyellow;
+    }
+
+    input:focus{
+    background-color: yellow;
+    }
+
+    input:hover{
+        background-color: white;
+        transform: scale(2);
+        color: black;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button:hover{
+        background-color: green;
+        color: whitesmoke;
+        transition-duration: 0.5s;
+    }
+
+
+    button {
+        padding: 10px;
+        margin: 10px;
+        position: relative;    
+        text-align: center;
+        background-color: blueviolet;
+        color: white;
+        font-size: 20px;
+        border: 0;
+        border-radius: 20px;
+    }
