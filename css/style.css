@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Roboto+Mono:wght@100&family=Rock+Salt&display=swap');
 
 * {
-    margin: 20px;
+    margin: 10;
     padding: 0;
 }
 
@@ -32,7 +32,6 @@ p {
     font-family: 'Roboto Mono', monospace;
     font-size: 40px;
     color: white;
-    text-align: center;
 }
 
 section {
@@ -61,7 +60,6 @@ h2{
 }
 .curiosidades{
     font-size: 2rem;
-    position: relative;
     border-radius: 10px;
     background-color: rgba(0, 0, 30, 0.50) ;}
 
@@ -70,10 +68,11 @@ li{
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-size: 25px;
-
-    padding: 10px 5px;
-
 }
+br{
+    margin: 10px;
+}
+
 .mediasocial{
         font-size: 2rem;
         border-radius: 10px;
