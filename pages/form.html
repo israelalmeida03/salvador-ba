@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Checkpoint 02 - Front End I</title>
+</head>
+<body>
+    <header>
+        <h1>Checkpoint 02 - Front End I</h1>
+    </header>
+        <main>
+            <section>
+                <fieldset>
+                    <legend>FAÇA O SEU CADASTRO</legend>
+                    <form action="registro" method="POST">
+                        <p>
+                            <label for="nome">Nome:</label><br>  
+                            <input type="text" required name="nome" id="nome" maxlength="100" >
+                        </p>
+                        <p>
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" required name="email" id="email">
+                        </p>
+                        <p>
+                            <label for="telefone">Telefone:</label><br>
+                            <input type="number" required name="telefone" id="telefone" min="11111111111" max="99999999999">
+                        </p>
+                        <p>
+                            <label for="data">Data de nascimento:</label><br>
+                            <input type="date" required name="data" id="data">
+                        </p>     
+                </fieldset>
+    
+                <fieldset>
+                    <legend>É maior de idade?</legend>
+                    <input type="radio" required name="adulto" id="sim" value="sim">
+                    <label for="sim">Sim</label>
+                    <input type="radio" name="adulto" id="nao" value="nao">
+                    <label for="nao">Não</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Selecione um ponto de interesse: </legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="interesse" id="pelourinho" value="Pelourinho">
+                            <label for="pelourinho">Pelourinho</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="interesse" id="barra" value="Praia da Barra">
+                            <label for="barra">Praia da Barra</label>    
+                        </li>
+                        <li>
+                            <input type="checkbox" name="interesse" id="mercadomodelo" value="Mercado Modelo">
+                            <label for="mercadomodelo">Mercado Modelo</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="interesse" id="itapua" value="Itapuã">
+                            <label for="itapua">Praia de Itapuã</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="interesse" id="humaita" value="Ponta de Humaitá">
+                            <label for="humaita">Ponta do Humaitá</label>
+                        </li>
+                        
+                        <li>
+                            <input type="checkbox" name="interesse" id="bonfim" value="Baísica do Bonfim">
+                            <label for="bonfim">Basílica Nosso Senhor Bonfim</label>
+                        </li>
+                       
+                        <li>
+                            <input type="checkbox" name="interesse" id="carnaval" value="Carnaval">
+                            <label for="carnaval">Carnaval de Salvador</label>
+                        </li>
+                    </ul>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Quais são seus interesses na cidade?</legend>
+                    <input type="checkbox" name="interesses" id="turista" value="Turista">
+                    <label for="turista">Turista</label><br>
+                    <input type="checkbox" name="interesses" id="residente" value="Residente">
+                    <label for="residente">Residente</label><br>
+                    <input type="checkbox" name="interesses" id="estudante" value="Estudante">
+                    <label for="estudante">Estudante</label><br>
+    
+                </fieldset>
+                                      
+                    <div>
+                        <button type="submit" value="enviar">Enviar</button>
+                        <button type="reset" value="resetar">Resetar dados</button>
+                    </div>
+                </form>
+            </section>
+        </main>    
+</body>
+</html>
