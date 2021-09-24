@@ -84,3 +84,32 @@ li{
         background-color: rgba(0, 0, 30, 0.50) ;
         text-align: center;
 }
+
+@media (max-width: 800px){
+    h1{
+        font-size: 40px;
+        margin: 1px;
+    }
+}
+
+@media (max-width: 800px){
+    p{
+        font-size: 40px;
+        margin: 1px;
+        padding-right: 10px;
+    }
+}
+
+ @media (max-width: 800px){
+    iframe{
+        width: 360px;
+        height: 220px;
+        border-top-width: 3px;
+        border-right-width: 3px;
+        border-bottom-width: 3px;
+        border-left-width: 3px;
+        position: relative;
+        text-align: center;
+        display: block;
+        margin: 0 auto; 
+ }
